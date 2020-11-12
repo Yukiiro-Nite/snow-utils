@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "snowutils:blocks/snow_brick_block"
+  }
+}
