@@ -4,6 +4,7 @@ import me.yukiironite.snowutils.SnowUtils;
 import me.yukiironite.snowutils.blocks.BlockItemBase;
 import me.yukiironite.snowutils.blocks.SnowBrickBlock;
 import me.yukiironite.snowutils.items.ItemBase;
+import me.yukiironite.snowutils.items.SnowCone;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -22,7 +23,7 @@ public class RegistryHandler {
   }
 
   // Items
-  public static final RegistryObject<Item> SNOWCONE = ITEMS.register("snow_cone", ItemBase::new);
+  public static final RegistryObject<Item> SNOWCONE = ITEMS.register("snow_cone", SnowCone::new);
 
   // Blocks
   public static final RegistryObject<Block> SNOW_BRICK_BLOCK = BLOCKS.register("snow_brick_block", SnowBrickBlock::new);
