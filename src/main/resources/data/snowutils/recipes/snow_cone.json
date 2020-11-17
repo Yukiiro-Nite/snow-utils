@@ -4,7 +4,7 @@
     { "item": "minecraft:snowball" },
     { "item": "minecraft:paper" },
     { "item": "minecraft:sugar" },
-    { "item": "minecraft:red_dye" }
+    { "tag": "snowutils:dye" }
   ],
   "result": {
     "item": "snowutils:snow_cone",
