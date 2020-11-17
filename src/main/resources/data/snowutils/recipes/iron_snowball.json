@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "sbs",
+    "sss"
+  ],
+  "key": {
+    "s": { "item": "minecraft:snowball" },
+    "b": { "item": "minecraft:iron_ingot" }
+  },
+  "result": {
+    "item": "snowutils:iron_snowball",
+    "count": 9
+  }
+}

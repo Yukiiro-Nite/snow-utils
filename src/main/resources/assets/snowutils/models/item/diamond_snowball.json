@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "snowutils:items/diamond_snowball"
+  }
+}

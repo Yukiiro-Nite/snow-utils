@@ -1,5 +1,9 @@
 {
   "itemGroup.snowutilsTab": "Snow Utils",
   "item.snowutils.snow_cone": "Snow Cone",
-  "block.snowutils.snow_brick_block": "Snow Brick"
+  "block.snowutils.snow_brick_block": "Snow Brick",
+  "item.snowutils.gold_snowball": "Gold Snowball",
+  "item.snowutils.iron_snowball": "Iron Snowball",
+  "item.snowutils.diamond_snowball": "Diamond Snowball",
+  "item.snowutils.netherite_snowball": "Netherite Snowball"
 }

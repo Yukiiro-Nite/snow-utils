@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:iron_nugget" },
+    { "item": "minecraft:snowball" }
+  ],
+  "result": {
+    "item": "snowutils:iron_snowball",
+    "count": 1
+  }
+}
