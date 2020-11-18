@@ -1,6 +1,9 @@
 package me.yukiironite.snowutils;
 
+import me.yukiironite.snowutils.entities.GoldSnowGolemEntity;
 import me.yukiironite.snowutils.entities.IronSnowGolemEntity;
+import me.yukiironite.snowutils.entities.DiamondSnowGolemEntity;
+import me.yukiironite.snowutils.entities.NetheriteSnowGolemEntity;
 import me.yukiironite.snowutils.init.ModEntityTypes;
 import me.yukiironite.snowutils.util.RegistryHandler;
 import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
@@ -42,7 +45,10 @@ public class SnowUtils {
 
     private void setup(final FMLCommonSetupEvent event) {
         DeferredWorkQueue.runLater(() -> {
+            GlobalEntityTypeAttributes.put(ModEntityTypes.GOLD_SNOW_GOLEM.get(), GoldSnowGolemEntity.func_234226_m_().create());
             GlobalEntityTypeAttributes.put(ModEntityTypes.IRON_SNOW_GOLEM.get(), IronSnowGolemEntity.func_234226_m_().create());
+            GlobalEntityTypeAttributes.put(ModEntityTypes.DIAMOND_SNOW_GOLEM.get(), DiamondSnowGolemEntity.func_234226_m_().create());
+            GlobalEntityTypeAttributes.put(ModEntityTypes.NETHERITE_SNOW_GOLEM.get(), NetheriteSnowGolemEntity.func_234226_m_().create());
         });
     }
 

@@ -1,10 +1,13 @@
 {
   "itemGroup.snowutilsTab": "Snow Utils",
-  "item.snowutils.snow_cone": "Snow Cone",
   "block.snowutils.snow_brick_block": "Snow Brick",
+  "item.snowutils.snow_cone": "Snow Cone",
   "item.snowutils.gold_snowball": "Gold Snowball",
   "item.snowutils.iron_snowball": "Iron Snowball",
   "item.snowutils.diamond_snowball": "Diamond Snowball",
   "item.snowutils.netherite_snowball": "Netherite Snowball",
-  "entity.snowutils.iron_snow_golem": "Iron Snow Golem"
+  "entity.snowutils.gold_snow_golem": "Gold Snow Golem",
+  "entity.snowutils.iron_snow_golem": "Iron Snow Golem",
+  "entity.snowutils.diamond_snow_golem": "Diamond Snow Golem",
+  "entity.snowutils.netherite_snow_golem": "Netherite Snow Golem"
 }
