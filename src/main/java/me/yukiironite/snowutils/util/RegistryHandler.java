@@ -3,7 +3,7 @@ package me.yukiironite.snowutils.util;
 import me.yukiironite.snowutils.SnowUtils;
 import me.yukiironite.snowutils.blocks.BlockItemBase;
 import me.yukiironite.snowutils.blocks.SnowBrickBlock;
-import me.yukiironite.snowutils.items.ItemBase;
+import me.yukiironite.snowutils.init.ModEntityTypes;
 import me.yukiironite.snowutils.items.SnowCone;
 import me.yukiironite.snowutils.items.LoadedSnowball;
 import net.minecraft.block.Block;
@@ -21,6 +21,7 @@ public class RegistryHandler {
   public static void init() {
     ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+    ModEntityTypes.EntityTypes.register(FMLJavaModLoadingContext.get().getModEventBus());
   }
 
   // Items
