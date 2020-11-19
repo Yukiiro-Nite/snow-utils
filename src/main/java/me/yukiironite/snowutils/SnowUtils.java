@@ -22,7 +22,7 @@ import org.apache.logging.log4j.Logger;
 @Mod("snowutils")
 public class SnowUtils {
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "snowutils";
     public static final ItemGroup TAB = new ItemGroup("snowutilsTab") {
         @Override
