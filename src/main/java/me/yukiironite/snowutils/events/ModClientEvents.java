@@ -5,8 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
 
-import org.apache.logging.log4j.Level;
-
 import me.yukiironite.snowutils.SnowUtils;
 import me.yukiironite.snowutils.entities.GoldSnowGolemEntity;
 import me.yukiironite.snowutils.entities.IronSnowGolemEntity;
@@ -19,7 +17,6 @@ import net.minecraft.entity.passive.SnowGolemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
-import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvents;
 import net.minecraft.world.World;
 import net.minecraftforge.api.distmarker.Dist;
