@@ -9,5 +9,14 @@
   "entity.snowutils.gold_snow_golem": "Gold Snow Golem",
   "entity.snowutils.iron_snow_golem": "Iron Snow Golem",
   "entity.snowutils.diamond_snow_golem": "Diamond Snow Golem",
-  "entity.snowutils.netherite_snow_golem": "Netherite Snow Golem"
+  "entity.snowutils.netherite_snow_golem": "Netherite Snow Golem",
+  "effect.snowutils.freeze": "Freeze",
+  "item.minecraft.potion.effect.freeze": "Potion of Freezing",
+  "item.minecraft.potion.effect.long_freeze": "Potion of Freezing",
+  "item.minecraft.splash_potion.effect.freeze": "Splash Potion of Freezing",
+  "item.minecraft.splash_potion.effect.long_freeze": "Splash Potion of Freezing",
+  "item.minecraft.lingering_potion.effect.freeze": "Lingering Potion of Freezing",
+  "item.minecraft.lingering_potion.effect.long_freeze": "Lingering Potion of Freezing",
+  "item.minecraft.tipped_arrow.effect.freeze": "Arrow of Freezing",
+  "item.minecraft.tipped_arrow.effect.long_freeze": "Arrow of Freezing"
 }

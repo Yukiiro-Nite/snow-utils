@@ -4,6 +4,7 @@ import me.yukiironite.snowutils.entities.GoldSnowGolemEntity;
 import me.yukiironite.snowutils.entities.IronSnowGolemEntity;
 import me.yukiironite.snowutils.entities.DiamondSnowGolemEntity;
 import me.yukiironite.snowutils.entities.NetheriteSnowGolemEntity;
+import me.yukiironite.snowutils.init.ModEffectTypes;
 import me.yukiironite.snowutils.init.ModEntityTypes;
 import me.yukiironite.snowutils.util.RegistryHandler;
 import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
@@ -50,6 +51,8 @@ public class SnowUtils {
             GlobalEntityTypeAttributes.put(ModEntityTypes.DIAMOND_SNOW_GOLEM.get(), DiamondSnowGolemEntity.func_234226_m_().create());
             GlobalEntityTypeAttributes.put(ModEntityTypes.NETHERITE_SNOW_GOLEM.get(), NetheriteSnowGolemEntity.func_234226_m_().create());
         });
+
+        ModEffectTypes.addPotionRecipes();
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {

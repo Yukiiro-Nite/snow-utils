@@ -3,11 +3,13 @@ package me.yukiironite.snowutils.util;
 import me.yukiironite.snowutils.SnowUtils;
 import me.yukiironite.snowutils.blocks.BlockItemBase;
 import me.yukiironite.snowutils.blocks.SnowBrickBlock;
+import me.yukiironite.snowutils.init.ModEffectTypes;
 import me.yukiironite.snowutils.init.ModEntityTypes;
 import me.yukiironite.snowutils.items.SnowCone;
 import me.yukiironite.snowutils.items.LoadedSnowball;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -19,9 +21,12 @@ public class RegistryHandler {
   public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SnowUtils.MOD_ID);
 
   public static void init() {
-    ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-    BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
-    ModEntityTypes.EntityTypes.register(FMLJavaModLoadingContext.get().getModEventBus());
+    final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+    ITEMS.register(modEventBus);
+    BLOCKS.register(modEventBus);
+    ModEntityTypes.EntityTypes.register(modEventBus);
+    ModEffectTypes.EFFECTS.register(modEventBus);
+    ModEffectTypes.POTION_TYPES.register(modEventBus);
   }
 
   // Items
