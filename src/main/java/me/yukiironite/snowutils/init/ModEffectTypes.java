@@ -23,14 +23,14 @@ public class ModEffectTypes {
   public static final RegistryObject<Effect> FREEZE_EFFECT = EFFECTS.register("freeze", FreezeEffect::new);
 
   public static final RegistryObject<Potion> FREEZE_POTION = POTION_TYPES.register("freeze", () ->
-    new Potion(new EffectInstance(FREEZE_EFFECT.get(), 5 * 20, 0))
+    new Potion(new EffectInstance(FREEZE_EFFECT.get(), 8 * 20, 0))
   );
   public static final RegistryObject<Potion> LONG_FREEZE_POTION = POTION_TYPES.register("long_freeze", () ->
-    new Potion(new EffectInstance(FREEZE_EFFECT.get(), 10 * 20, 0))
+    new Potion(new EffectInstance(FREEZE_EFFECT.get(), 16 * 20, 0))
   );
 
   public static void addPotionRecipes() {
-    BrewingRecipeRegistry.addRecipe(new ModBrewingRecipe(Potions.AWKWARD, Items.SNOWBALL, FREEZE_POTION.get()));
+    BrewingRecipeRegistry.addRecipe(new ModBrewingRecipe(Potions.AWKWARD, Items.ICE, FREEZE_POTION.get()));
     BrewingRecipeRegistry.addRecipe(new ModBrewingRecipe(FREEZE_POTION.get(), Items.REDSTONE, LONG_FREEZE_POTION.get()));
   }
 
