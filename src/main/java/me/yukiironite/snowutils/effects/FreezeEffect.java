@@ -2,10 +2,6 @@ package me.yukiironite.snowutils.effects;
 
 import java.util.UUID;
 
-import org.apache.logging.log4j.Level;
-
-import me.yukiironite.snowutils.SnowUtils;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier.Operation;
 import net.minecraft.potion.Effect;
